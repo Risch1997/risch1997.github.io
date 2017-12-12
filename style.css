@@ -19,12 +19,6 @@ body, html {
 	overflow: auto;
 }
 
-.buffer {
-	width: 100%;
-	height: 50px;
-	background: #afafaf;
-}
-
 .logo {
 	vertical-align: middle;
 	display: inline-block;
