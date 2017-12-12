@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Helvetica', sans-serif;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#content {
+	padding-bottom: 210px;
+	overflow: auto;
+}
+
+.buffer {
+	width: 100%;
+	height: 50px;
+	background: #afafaf;
+}
+
+.logo {
+	vertical-align: middle;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+
+.about {
+	margin: 50px 30%;
+	color: black;
+	line-height: 0;
+}
+
+.profileImage {
+	width: 150px;
+}
+
+.about p {
+	line-height: 20px;
+	clear: both;
+	overflow: auto;
+}
+
+.about a {
+	color: red;
+	text-decoration: none;
+}
+
+.about a:hover {
+	text-decoration: underline;
+}
+
+#title {
+	vertical-align: bottom;
+	text-align: center;
+	margin-top: 25px;
+}
+
+span {
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#nameAndLogo {
+	padding: 10px 10px;
+	display: inline-block;
+	margin: 5px 0;
+}
+
+#top {
+	background: #afafaf;
+	min-height: 250px;
+	padding: 0 20%;
+}
+
+#menu {
+	list-style: none;
+	padding: 0;
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+	padding: 10px 10px 3px 10px;
+}
+
+#menu li:hover {
+	border-bottom: 1px solid white;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+}
+
+.home-project {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+.home-project p {
+	text-align: center;
+}
+
+.home-project img {
+	width: 100px;
+}
+
+.leftmost {
+	margin-left: 5%;
+}
+
+.project1 {
+	width: 33.33%;
+	background: white;
+	height: 400px;
+	float: left;
+}
+
+.project2 {
+	width: 33.33%;
+	background: black;
+	height: 400px;
+	float: left;
+}
+
+.project3 {
+	width: 33.33%;
+	background: #41b1ff;
+	height: 400px;
+	float: left;
+}
+
+.project {
+	cursor: pointer;
+	position: relative;
+	margin: 0;
+	text-align: center;
+}
+
+.project img {
+	width: 200px;
+	padding-top: 100px;
+}
+
+.desc {
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	position: absolute;
+	height: 50px;
+	bottom: 0;
+	display: none;
+}
+
+#skillsTable {
+	color: black;
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 50px;
+	width: 80%;
+	font-size: 20px;
+	text-align: center;
+}
+
+#skillsTable img {
+	height: 75px;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+
+#skillsTable th {
+	font-size: 36px;
+	width: 30%;
+}
+
+#sm {
+	margin: 48px auto;
+}
+
+#copyright {
+	margin: 20px auto;
+}
+
+.icon {
+	height: 30px;
+	vertical-align: middle;
+}
+
+footer {
+	background: #c40000;
+	position: absolute;
+	bottom: 0;
+	height: 200px;
+	width: 60%;
+	padding: 10px 20%;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+	
